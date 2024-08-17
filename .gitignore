@@ -1,0 +1,4 @@
+testB/
+_pycache_/
+*.sqlites
+requirements.txt/

@@ -1,0 +1,16 @@
+{% extends "blogs/base.html" %}
+
+{% block header %}
+  <div class='jumbotron'>
+    <h1>Here are all the blogs.</h1>
+  </div>
+{% endblock header %}
+
+{% block content %}
+  <h2>
+    <a href="{% url 'users:register' %}">Register an account</a> to create your Blog or view any blogs that you want.
+  </h2>
+  <h2>
+    Whenever you want to publish something, publish your Blog so that others can see it.
+  </h2>
+{% endblock content %}
