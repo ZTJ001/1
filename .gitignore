@@ -1,4 +1,5 @@
-testB/
-_pycache_/
-*.sqlites
-requirements.txt/
+testB/  
+__pycache__/  
+*.sqlite3  
+*.sqlites  
+requirements.txt
